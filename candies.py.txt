@@ -1,0 +1,19 @@
+n=int(input("enter the num of candies"))
+k=10-n
+if(k<=5):
+    print("refill")
+elif(n>10 or n==0):
+    print("invalid")
+else:
+    print("no of candies left",k)
+
+
+'''n=int(input("enter the num of candies"))
+if  n<=5:
+    print("need to refill")
+elif n>10 or n==0:
+    print("invalid")
+else:
+    k=10-n
+    print("num of candies left",k)'''
+    
