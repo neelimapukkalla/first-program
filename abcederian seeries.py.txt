@@ -1,0 +1,15 @@
+#abcderian series
+#https://www.brainkart.com/article/Programs-using-Strings_37260/
+
+str1="abcdefgh"
+str2="ate"
+for letter in str1:
+    print((letter+str2),end =" ")
+
+
+
+
+str1="abcde"
+str2="age"
+print(str2.join(str1),end = " ")
+
