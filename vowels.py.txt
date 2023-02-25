@@ -1,0 +1,1 @@
+# write a program thet accepts a string bfrom user and re displays the same string after removing vowels from it

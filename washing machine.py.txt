@@ -1,0 +1,11 @@
+n=int(input())
+if n==0:
+    print("time estimated is 0 minutes")
+elif n in range(1,2001):
+    print("time estimated is 25 minutes")
+elif n in range(2001,4001):
+    print("time estimated is 35 minutes")
+elif n in range(4001,7001):
+    print("time estimated is 45 minutes")
+else:
+    print("invalid")

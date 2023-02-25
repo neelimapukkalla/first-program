@@ -1,0 +1,27 @@
+'''def TowerOfHanoi(n , s, d, a):
+    if n==1:
+        print ("Move disk 1 from source",s,"to destination",d)
+        return
+    TowerOfHanoi(n-1, s, a, d)
+    print ("Move disk",n,"from source",s,"to destination",d)
+    TowerOfHanoi(n-1, a, d, s)
+n = 4
+TowerOfHanoi(n,'A','B','C')'''
+
+
+
+
+
+
+def hanoi(n,a,b,c):
+    if n>0:
+        hanoi(n-1,a,c,b)
+        if a:
+            c.append(a.pop())
+        hanoi(n-1,b,a,c)
+a=[1,2,3,4]
+b=[]
+c=[]
+print("before puzzle",a,b,c)
+hanoi(len(a),a,b,c)
+print("after puzzle",a,b,c)
